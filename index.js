@@ -1,7 +1,4 @@
-var rect = {
-    perimeter: (x,y) => (2*x + 2*y),
-    area: (x,y) => (x*y)
-};
+var rect = require('./rectangle');
 
 function solveRect(l,w) {
     console.log("Solving for rectangle with l = " + l + " and w = " + w)
